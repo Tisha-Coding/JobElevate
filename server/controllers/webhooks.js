@@ -72,3 +72,5 @@ const clerkWebhooks = async(req,res) =>
              res.json({success: false,message: 'Webhooks Error'})
     }
 }
+
+export {clerkWebhooks};
